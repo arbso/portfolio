@@ -17,6 +17,7 @@ window.addEventListener("DOMContentLoaded" , () => {
                     console.log("revealed");
                     titleReveal[0].classList.add('active');
                     titleReveal[1].classList.add('active');
+                    titleReveal[2].classList.add('active');
                     pReveals[0].classList.add('active');
                     // pReveals[1].classList.add('active');
                     reveals[i].classList.add('active');
@@ -30,6 +31,7 @@ window.addEventListener("DOMContentLoaded" , () => {
             }
             titleReveal[0].classList.remove('active');
             titleReveal[1].classList.remove('active');
+            titleReveal[2].classList.remove('active');
             pReveals[0].classList.remove('active');
             // pReveals[1].classList.remove('active');
             }
