@@ -430,7 +430,10 @@ input[type="range"].slider::-webkit-slider-thumb {
     margin-top: -13.7px;
     width: 32px;
     height: 32px;
-    background: rgb(243, 219, 76);
+    background-image: url(imgs/cursor.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
     border: 2px solid rgb(211, 190, 0);
     border-radius: 50px;
     cursor: pointer;
