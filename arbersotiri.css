@@ -1,0 +1,464 @@
+@font-face {
+    font-family: "Neutra Text Bold";
+    src: url("fonts/NeutraTextBold.otf");
+}
+@font-face {
+    font-family: "Neutra Text Book";
+    src: url("fonts/NeutraTextBook.otf");
+}
+@font-face {
+    font-family: "Neutra Text Italic";
+    src: url("fonts/NeutraTextBookItalic.otf");
+}
+body.auto, body.auto * {
+    cursor: url("imgs/cursor.png") 15 15, move;
+}
+html {
+    scroll-behavior: smooth !important;
+}
+body {
+    background-color: rgb(37, 37, 37);
+}
+#logo {
+    border-radius: 50%;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: sticky;
+    top: 0px;
+}
+#name {
+    font-family: "Neutra Text Book";
+    font-size: 50px;
+    text-align: center;
+    color: rgb(243, 219, 76);
+    margin-top: 15px;
+}
+#work {
+    padding-top: 100px;
+    font-family: "Neutra Text Bold";
+    font-size: 50px;
+    text-align: center;
+    color: rgb(243, 219, 76);
+    margin-top: 15px;
+}
+#work-con {
+   display: flex;
+   flex-flow: column wrap;
+   width: 50%;
+   padding-left: 10%;
+}
+#logoAnimations {
+    font-family: "Neutra Text Book";
+    font-size: 35px;
+    text-align: center;
+    color: rgb(243, 219, 76);
+    margin-top: 15px;
+}
+#title {
+    font-family: "Neutra Text Italic";
+    font-size: 35px;
+    text-align: center;
+    color: rgb(243, 219, 76);
+    margin-top: 15px;
+}
+a, a:visited, a:hover, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+#about {
+    font-family: "Neutra Text Bold";
+    font-size: 50px;
+    text-align: left;
+    color: rgb(243, 219, 76);
+    margin-top: 100px;
+}
+#fab fa-linkedin {
+    color: rgb(243, 219, 76);
+}
+#con {
+    display: flex;
+    place-content: stretch space-around;
+}
+#skills {
+    font-family: "Neutra Text Bold";
+    font-size: 50px;
+    text-align: left;
+    color: rgb(243, 219, 76);
+    margin-top: 100px;
+}
+#arb {
+    border: 4px solid rgb(22, 22, 22);
+    height: 217px;
+    border-radius: 7%;
+}
+#about-image {
+    display: inline-block;
+    width: 30%;
+}
+#about-text {
+    background-color: rgb(23, 23, 23);
+    border-radius: 20px 20px 20px 0px;
+    font-family: "Neutra Text Book";
+    font-size: 25px;
+    text-align: left;
+    color: rgb(243, 219, 76);
+    display: flex;
+    width: 40%;
+    padding-left: 20px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#about-links {
+    background-color: rgb(23, 23, 23);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    padding-left: 20px;
+    width: 20%;
+}
+#linkedin {
+    font-family: "Neutra Text Book";
+    font-size: 25px;
+    text-align: left;
+    color: rgb(243, 219, 76);
+    display: flex;
+    justify-content: space-evenly;
+}
+#contact {
+    background-color: rgb(23, 23, 23);
+    font-family: "Neutra Text Bold";
+    font-size: 35px;
+    text-align: left;
+    color: rgb(243, 219, 76);
+    display: flex;
+    width: 20%;
+    padding-left: 20px;
+    margin-top: -30px;
+}
+#email {
+    font-family: "Neutra Text Book";
+    font-size: 25px;
+    text-align: left;
+    color: rgb(243, 219, 76);
+    display: flex;
+    justify-content: space-evenly;
+}
+#CV {
+    font-family: "Neutra Text Book";
+    font-size: 25px;
+    text-align: left;
+    color: rgb(243, 219, 76);
+    display: flex;
+    justify-content: space-evenly;
+}
+.char {
+    font-size: 25px;
+    animation: 1s ease-out 0s 1 normal both running an;
+    display: inline-block;
+}
+#skillsList {
+    background-color: rgb(23, 23, 23);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+    align-items: center;
+}
+#skillsList2 {
+    background-color: rgb(23, 23, 23);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+    align-items: center;
+}
+.software {
+    font-family: "Neutra Text Bold";
+    font-size: 25px;
+    text-align: left;
+    color: rgb(243, 219, 76);
+    display: flex;
+}
+#about-con {
+    display: flex;
+    margin-top: 20px;
+}
+.swLogo {
+    font-family: "Neutra Text Italic";
+    font-size: 20px;
+    color: rgb(243, 219, 76);
+    display: flex;
+    width: 250px;
+    justify-content: flex-start;
+}
+.swName {
+    font-family: "Neutra Text Italic";
+    font-size: 20px;
+    color: rgb(243, 219, 76);
+    display: flex;
+    margin-left: 16px;
+    align-items: center;
+}
+#ps {
+    width: 15%;
+}
+.navbar {
+    width: 100%;
+    background-color: rgb(52, 52, 52);
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+.pReveal {
+    opacity: 0;
+    /* transform: translateY(-600px); */
+    transition: all 2s ease-in-out 0s;
+}
+.pReveal.active {
+    transform: translateX(240px);
+    opacity: 1;
+}
+.revealfirst {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 1.5s ease-in-out 0s;
+}
+.revealfirst.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease-in-out 0s;
+}
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+}
+.move {
+    transform: translateX(0px);
+    transition: all 2s ease 0s;
+}
+.move.active {
+    transform: translateX(0px);
+}
+#scroll {
+    position: absolute;
+    opacity: 0;
+    top: -10vh;
+    background-color: black;
+    height: 10vh;
+    width: 38vw;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    color: white;
+    font-size: 12px;
+    text-transform: lowercase;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    align-items: center;
+    transition: all 600ms cubic-bezier(0.62, 1.21, 1, 1) 0s;
+    margin: auto;
+    left: 50%;
+    transform: translate(-50%, 0px);
+    z-index: -1;
+}
+#scroll #background-noise {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    width: 100vw;
+}
+ul {
+    position: relative;
+    display: flex;
+    margin-right: 40px;
+    justify-content: center;
+}
+li {
+    list-style: none;
+}
+label {
+    position: relative;
+}
+input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 80px;
+    width: 80px;
+    z-index: 100;
+}
+#parallelogram {
+    position: absolute;
+    /* display: flex; */
+    width: 80px;
+    height: 639px;
+    margin-top: -80px;
+    margin-left: -210px;
+    background: rgb(243, 219, 76);
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+#parallelogram2 {
+    position: absolute;
+    width: 100px;
+    height: 380px;
+    margin-top: 350px;
+    background: rgb(243, 219, 76);
+}
+#thing {
+    transform: skew(339deg, 350deg);
+    width: 50%;
+    margin-top: -50px;
+    margin-left: -300px;
+    position: absolute;
+}
+#thing2 {
+    width: 100%;
+    height: 230%;
+    margin-top: 250px;
+    margin-left: -10px;
+    position: absolute;
+    transform: skew(257deg, 26deg);
+}
+#mulliri {
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    width: max-content;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 150%; */
+}
+#one {
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    width: max-content;
+    justify-content: space-around;
+    align-items: center;
+    /* width: 150%; */
+}
+#moncheri {
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    width: max-content;
+    justify-content: space-around;
+    align-items: center;
+}
+#shahmat {
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    width: max-content;
+    justify-content: space-around;
+    align-items: center;
+}
+.letters {
+    position: relative;
+    height: 80px;
+    width: 40px;
+    font-family: "Neutra Text Bold";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 46px;
+    cursor: pointer;
+    margin: 0px 4px;
+}
+input[type="checkbox"]:hover ~ div {
+    color: rgb(240, 219, 79);
+    text-shadow: rgb(240, 219, 79) 0px 0px 5px, rgb(240, 219, 79) 0px 0px 10px;
+}
+input[type="checkbox"]:checked ~ div {
+    color: rgb(240, 219, 79);
+    text-shadow: rgb(240, 219, 79) 0px 0px 5px, rgb(240, 219, 79) 0px 0px 5px;
+}
+@keyframes glow {
+    0% {
+        filter: hue-rotate(0deg);
+   }
+    100% {
+        filter: hue-rotate(360deg);
+   }
+}
+@keyframes an {
+    0% {
+        opacity: 0;
+        transform: perspective(500px) translate3d(-35px, -40px, -150px) rotate3d(1, -1, 0, 35deg);
+   }
+    100% {
+        opacity: 1;
+        transform: perspective(500px) translate3d(0px, 0px, 0px);
+   }
+}
+input[type="range"].slider {
+    width: 15%;
+    margin: 13.7px 0px;
+    background-color: transparent;
+    appearance: none;
+}
+input[type="range"].slider:focus {
+    outline: none;
+}
+input[type="range"].slider::-webkit-slider-runnable-track {
+    background: rgb(30, 30, 30);
+    border: 0px;
+    border-radius: 11.9px;
+    width: 100%;
+    height: 4.6px;
+    cursor: pointer;
+}
+input[type="range"].slider::-webkit-slider-thumb {
+    margin-top: -13.7px;
+    width: 32px;
+    height: 32px;
+    background: rgb(243, 219, 76);
+    border: 2px solid rgb(211, 190, 0);
+    border-radius: 50px;
+    cursor: pointer;
+    appearance: none;
+}
+input[type="range"].slider:focus::-webkit-slider-runnable-track {
+    background: rgb(30, 30, 30);
+}
+#slider {
+    margin-top: -20px;
+    text-align: center;
+}
+@supports (-ms-ime-align:auto) {
+    input[type="range"].slider {
+        margin: 0px;
+   }
+}
+.logoDesc {
+   /* display: flex;
+    */
+   background-color: rgb(23, 23, 23);
+   border-radius: 20px;
+   font-family: "Neutra Text Bold";
+   font-size: 30px;
+   text-align: left;
+   color: rgb(243, 219, 76);
+   display: flex;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
