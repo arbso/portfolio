@@ -21,6 +21,7 @@
    display: flex;
    flex-flow: column wrap;
    width: 50%;
+        padding-left:0%;
 }
     
 }
