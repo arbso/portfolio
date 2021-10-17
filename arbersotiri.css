@@ -10,6 +10,21 @@
     font-family: "Neutra Text Italic";
     src: url("fonts/NeutraTextBookItalic.otf");
 }
+
+@media only screen and (min-device-width: 480px){
+    body {
+        display:inline-table;
+    background-color: rgb(37, 37, 37);
+    }
+    
+    #work-con {
+   display: flex;
+   flex-flow: column wrap;
+   width: 50%;
+}
+    
+}
+
 body.auto, body.auto * {
     cursor: url("imgs/cursor.png") 15 15, move;
 }
