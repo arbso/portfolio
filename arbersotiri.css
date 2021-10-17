@@ -17,7 +17,7 @@
     background-color: rgb(37, 37, 37);
     }
     
-    #work-con {
+   body > #work-con {
    display: flex;
    flex-flow: column wrap;
    width: 50%;
