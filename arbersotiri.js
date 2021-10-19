@@ -13,7 +13,7 @@ window.addEventListener("DOMContentLoaded" , () => {
         if (document.querySelectorAll('input[type="checkbox"]:checked').length === document.querySelectorAll('input[type="checkbox"]').length) {
 
             console.log('checked');
-            for(var i=0; i<9; i++){
+            for(var i=0; i<10; i++){
                     console.log("revealed");
                     titleReveal[0].classList.add('active');
                     titleReveal[1].classList.add('active');
@@ -25,7 +25,7 @@ window.addEventListener("DOMContentLoaded" , () => {
         } else {
                 
             console.log('not checked');
-            for(var i=0; i<9; i++){
+            for(var i=0; i<10; i++){
                     reveals[i].classList.remove('active');
                     
             }

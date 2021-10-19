@@ -63,9 +63,6 @@
     
 }
 
-body.auto, body.auto * {
-    cursor: url("imgs/cursor.png") 15 15, move;
-}
 html {
     scroll-behavior: smooth !important;
 }
@@ -424,6 +421,17 @@ input[type="checkbox"] {
     justify-content: space-around;
     align-items: center;
 }
+
+#teg {
+    height: 300px;
+    display: flex;
+    overflow: hidden;
+    border-radius: 10px;
+    width: max-content;
+    justify-content: space-around;
+    align-items: center;
+}
+
 .letters {
     position: relative;
     height: 80px;
